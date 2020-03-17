@@ -7,7 +7,7 @@ fi
 
 #find root user's name
 rootun=whoami
-echo "Acquired username of UID 0
+echo "Acquired username of UID 0"
 
 usermod --shell /bin/nologin $rootun
 echo "Shell set to nologin"
